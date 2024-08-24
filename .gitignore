@@ -1,0 +1,37 @@
+# Compiled output
+/target/
+
+# If using Cargo workspaces, ignore the following too
+**/target/
+
+# Executables
+*.exe
+*.out
+*.o
+*.so
+*.dylib
+*.dll
+
+# Dependencies
+**/*.rs.bk
+
+# IDE/Editor directories and files
+# JetBrains (IDEA, CLion)
+.idea/
+# VS Code
+.vscode/
+*.code-workspace
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+# vim
+*.swp
+*.swo
+# emacs
+*~
+\#*\#
+.\#*
+
+# Others
+.DS_Store
+Thumbs.db
